@@ -3,11 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Access-Control-Allow-Origin" content="*">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Working with SASS and Modules</title>
 
     <!-- this has to be a css file -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/master.css">
+    <!--<script src="js/modules/DataModule.js"></script>-->
 </head>
 
 <body>
@@ -16,36 +19,52 @@
 
         <!-- this is an HTML component -->
         <nav class="main-nav">
-            <li class="nav-item"><a href="#">item 1</a></li>
-
-            <li class="nav-item"><a href="#">item 2</a></li>
-            <li class="nav-item"><a href="#">item 3</a></li>
-            <li class="nav-item"><a href="#">item 4</a></li>
-            <li class="nav-item"><a href="#">item 5</a></li>
+            <li class="nav-item"><a href="javascript:;">item 1</a></li>
+            <li class="nav-item"><a href="javascript:;">item 2</a></li>
+            <li class="nav-item"><a href="javascript:;">item 3</a></li>
+            <li class="nav-item"><a href="javascript:;">item 4</a></li>
+            <li class="nav-item"><a href="javascript:;">item 5</a></li>
         </nav>
         <!-- end component -->
 
         <!-- add a users section here -->
-        <section class="user-section"></section>
+        <section class="user-section">
+                <!-- user-template copies get rendered here -->
+        </section>
         <!-- end users section -->
     </main>
 
     <footer>this is a simple footer</footer>
 
-    <!-- templates go here (these don't get rendered on the page) -->
-    <template id="profs-template">
+    <!-- template files here (these don't render - the contents are reusable and get cloned at runtime) -->
+    <template id="user-template">
         <div class="user">
             <h1 class="hidden"></h1>
             <h2 class="user-name"></h2>
             <p class="user-nickname"></p>
             <p class="user-role"></p>
+            <p class="user-sex"></p>
         </div>
     </template>
 
-    <!-- end templates-->
+    <!-- end templates -->
 
     <!-- script files always go here -->
-    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/content.js"></script>
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+

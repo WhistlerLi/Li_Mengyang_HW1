@@ -1,6 +1,32 @@
 {
-    "Justin":{"name":"Justin","role":"Coordinator","nickname":"i don't know"},
-    "John":{"name":"John","role":"super chill prof","nickname":"just john"},
-    "Joe":{"name":"Joe","role":"Prof","nickname":"Teddy Bear"},
-    "Pan":{"name":"Pan","role":"Code Ninja","nickname":"Spider Pan"}
+  "Justin": {
+    "name": "Clinton",
+    "role": "Coordinator",
+    "nickname": "panda",
+    "sex": "male"
+  },
+  "John": {
+    "name": "Jafferson",
+    "role": "super chill prof",
+    "nickname": "just john",
+    "sex": "male"
+  },
+  "Lili": {
+    "name": "Lili",
+    "role": "Member",
+    "nickname": "Teddy Bear",
+    "sex": "female"
+  },
+  "Pan": {
+    "name": "William",
+    "role": "Code Ninja",
+    "nickname": "Spider Pan",
+    "sex": "female"
+  },
+  "Jame": {
+    "name": "Jame",
+    "role": "Admin",
+    "nickname": "LeBron Raymone James",
+    "sex": "male"
   }
+}
